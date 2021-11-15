@@ -1,0 +1,15 @@
+.container{
+  padding:30px;
+  background-color: #eaeaeb;
+  &__title{
+    text-align: center;
+    color: #808085;
+    padding-bottom: 10px;
+  }
+  &__description{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 1.5em;
+    color: pink;
+  }
+}

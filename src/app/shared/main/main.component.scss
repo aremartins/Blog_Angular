@@ -1,10 +1,10 @@
-$base_color:#eaeaeb;
-$font_color:#464646;
-$secundary_color:#A050BE;
-.main{
+$base_color: #eaeaeb;
+$font_color: #464646;
+$secundary_color: #a050be;
+.main {
   display: flex;
   justify-content: center;
-  flex-wrap:wrap;
+  flex-wrap: wrap;
   font-family: Arial, Helvetica, sans-serif;
 
   &__content {
@@ -24,25 +24,25 @@ $secundary_color:#A050BE;
     font-size: 22px;
     color: $font_color;
     letter-spacing: 1.5;
-    &:hover{
+    &:hover {
       color: $secundary_color;
     }
   }
-  &__subtitle{
+  &__subtitle {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top:10px;
-    margin-bottom:20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
   }
   &__date {
     margin: 0 10px;
-    font-size:12px;
+    font-size: 12px;
     font-style: italic;
   }
 
   &__tag {
-    font-size:14px;
+    font-size: 14px;
     padding: 5px 7px;
     color: $secundary_color;
     border: 1px solid $secundary_color;
@@ -54,7 +54,7 @@ $secundary_color:#A050BE;
   }
 
   &__img {
-    width:100%;
+    width: 100%;
   }
 
   &__descritption {
@@ -62,8 +62,6 @@ $secundary_color:#A050BE;
     max-width: 650px;
     margin-left: auto;
     margin-right: auto;
-    font-size:14px;
+    font-size: 14px;
   }
-
-
 }
