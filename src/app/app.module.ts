@@ -4,20 +4,17 @@ import { AnimalsModule } from './animals/animals.module';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ErrorsModule } from './errors/errors.module';
-import { FooterComponent } from './shared/footer/footer.component';
-import { HeaderComponent } from './shared/header/header.component';
-
+import { SharedModule } from './shared/shared/shared.module';
 
 @NgModule({
   declarations: [
-    AppComponent,
-    HeaderComponent,
-    FooterComponent
+    AppComponent
    ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     AnimalsModule,
+    SharedModule,
     ErrorsModule
   ],
   providers: [],
